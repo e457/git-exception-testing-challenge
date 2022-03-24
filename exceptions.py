@@ -36,17 +36,18 @@ def produce_key_error():
 
 # IndexError
 def produce_index_error():
-    pass
+    print(sx[1])
 
 
 # NameError
 def produce_name_error():
-    pass
+    print(data)
 
 
 # UnboundLocalError
 def produce_unbound_local_error():
-    pass
+    x+=1
+    print x
 
 
 # TypeError
