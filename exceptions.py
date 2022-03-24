@@ -79,7 +79,8 @@ def produce_overflow_error():
 
 # FileNotFoundError
 def produce_file_not_found_error():
-    pass
+    fileName = input("Please enter the name of the file you'd like to use.")
+    fileScan = open(fileName, 'r')
 
 
 # UnicodeEncodeError
