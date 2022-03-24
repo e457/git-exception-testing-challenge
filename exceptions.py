@@ -37,7 +37,8 @@ def produce_key_error():
 
 # IndexError
 def produce_index_error():
-    print(xs[2])
+    letters = ["A", "B"]
+    print(letters[2])
 
 
 # NameError
