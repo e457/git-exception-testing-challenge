@@ -23,6 +23,9 @@
 
 
 # AttributeError - EXAMPLE
+import math
+
+
 def produce_attribute_error():
     # print(1.234.upper())
     pass
@@ -60,7 +63,8 @@ def produce_type_error():
 
 # ValueError
 def produce_value_error():
-    pass
+    import math
+    print(math.sqrt(-1))
 
 
 # ZeroDivisionError
