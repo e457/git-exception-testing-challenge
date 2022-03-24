@@ -90,7 +90,7 @@ def produce_file_not_found_error():
 
 # UnicodeEncodeError
 def produce_unicode_encode_error():
-    b'\x80'.decode("utf-8", "strict")
+    u"\u0411".encode("iso-8859-15")
 
 
 # ModuleNotFoundError
