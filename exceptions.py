@@ -85,7 +85,7 @@ def produce_file_not_found_error():
 
 # UnicodeEncodeError
 def produce_unicode_encode_error():
-    pass
+    b'\x80'.decode("utf-8", "strict")
 
 
 # ModuleNotFoundError
