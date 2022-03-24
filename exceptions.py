@@ -30,18 +30,19 @@ def produce_attribute_error():
 
 # KeyError
 def produce_key_error():
-    print(raspberry['cherry'])
+    ages = {'Jim': 30, 'Pam': 28, 'Kevin': 33}
+    ages['Michael']
 
 
 
 # IndexError
 def produce_index_error():
-    print(sx[1])
+    print(xs[2])
 
 
 # NameError
 def produce_name_error():
-    print(data)
+    print(raspberry['cherry'])
 
 
 # UnboundLocalError
