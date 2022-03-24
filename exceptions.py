@@ -90,9 +90,9 @@ def produce_unicode_encode_error():
 
 # ModuleNotFoundError
 def produce_module_not_found_error():
-    pass
+    import parrot
 
 
 # ImportError
 def produce_import_error():
-    pass
+    from green_light import red_light
