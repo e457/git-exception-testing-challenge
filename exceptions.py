@@ -72,7 +72,9 @@ def produce_zero_division_error():
 
 # OverflowError
 def produce_overflow_error():
-    pass
+    import math
+    print("A ridiculous number is ")
+    print(math.exp(1000))
 
 
 # FileNotFoundError
