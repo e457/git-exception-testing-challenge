@@ -30,7 +30,8 @@ def produce_attribute_error():
 
 # KeyError
 def produce_key_error():
-    pass
+    print(raspberry['cherry'])
+
 
 
 # IndexError
