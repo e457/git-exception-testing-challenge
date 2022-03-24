@@ -64,7 +64,10 @@ def produce_value_error():
 
 # ZeroDivisionError
 def produce_zero_division_error():
-    pass
+    a = 8
+    b = 0
+    c = a / b
+    print(c)
 
 
 # OverflowError
