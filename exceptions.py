@@ -46,8 +46,8 @@ def produce_name_error():
 
 # UnboundLocalError
 def produce_unbound_local_error():
-    x+=1
-    print x
+    lst += [5]
+
 
 
 # TypeError
