@@ -54,7 +54,8 @@ def produce_unbound_local_error():
 
 # TypeError
 def produce_type_error():
-    pass
+    4 + '3'
+
 
 
 # ValueError
