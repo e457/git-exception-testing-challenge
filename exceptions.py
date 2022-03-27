@@ -94,11 +94,11 @@ def produce_import_error():
 
 # PermissionError
 def produce_permission_error():
-    with open("thing.csv", "r") as file:
-        reader = csv.reader(file)
-        for r in reader:
-            print(r)
+    file = open("python.txt", "r")
+    content = file.read()
+    print(content)
+    file.close()
+
 
 def produce_is_a_directory_error():
-    notadir = "./README.md"
-    os.listdir(notadir)
+    open("/Users/eloisephelps/Dev/git-exception-testing-challenge/.pytest_cache", "w")

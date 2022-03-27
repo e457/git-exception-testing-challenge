@@ -67,7 +67,6 @@ class TestExceptions(TestCase):
         with self.assertRaises(ImportError):
             exceptions.produce_import_error()
 
-
     # failing this - ask for help
     def test_produce_permission_error(self):
         with self.assertRaises(PermissionError):
