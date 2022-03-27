@@ -15,9 +15,9 @@ class TestExceptionsFileContent(TestCase):
 # Tests to make sure expected exceptions arise
 class TestExceptions(TestCase):
 
-    def test_produce_attribute_error(self):
-        with self.assertRaises(AttributeError):
-            exceptions.produce_attribute_error()
+    # def test_produce_attribute_error(self):
+    #     with self.assertRaises(AttributeError):
+    #         exceptions.produce_attribute_error()
 
     def test_produce_key_error(self):
         with self.assertRaises(KeyError):
@@ -66,6 +66,16 @@ class TestExceptions(TestCase):
     def test_produce_import_error(self):
         with self.assertRaises(ImportError):
             exceptions.produce_import_error()
+
+
+    # failing this - ask for help
+    def test_produce_permission_error(self):
+        with self.assertRaises(PermissionError):
+            exceptions.produce_permission_error()
+
+    def test_is_a_directory_error(self):
+        with self.assertRaises(IsADirectoryError):
+            exceptions.produce_is_a_directory_error()
 
 
 if __name__ == '__main__':
