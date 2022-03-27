@@ -25,9 +25,6 @@
 # AttributeError - EXAMPLE
 import math
 import os
-import csv
-
-
 
 def produce_attribute_error():
     # print(1.234.upper())
@@ -94,11 +91,13 @@ def produce_import_error():
 
 # PermissionError
 def produce_permission_error():
-    file = open("python.txt", "r")
-    content = file.read()
-    print(content)
-    file.close()
+        file = open("/Users/eloisephelps/Dev/git-exception-testing-challenge/naughty.txt", "w+")
+        content = file.read()
+        print(content)
+        file.close()
+        pass
 
+#     leslie's -  C:\Users\Leslie\PycharmProjects\cfg-python
 
 def produce_is_a_directory_error():
     open("/Users/eloisephelps/Dev/git-exception-testing-challenge/.pytest_cache", "w")
